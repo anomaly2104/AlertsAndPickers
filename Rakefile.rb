@@ -31,8 +31,8 @@ def release(**options)
   remote_version = spec_version('origin/master', podspec_path)
 
   if local_version != remote_version
-    puts "Error: local (#{local_version}) and remote (#{remote_version}) versions do not match"
-    exit
+    puts "Warning: local (#{local_version}) and remote (#{remote_version}) versions do not match"
+    exit unless confirm "Are you sure you want to continue with local version #{red(local_version)}"
   end
 
   puts "- Current Version: " + blue(local_version)
