@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                  = "Alerts&Pickers"
+  s.name                  = "AlertsAndPickers"
   s.version               = "1.0.0"
   s.summary               = "A simple library for converting a value from one unit to another."
   s.homepage              = "https://github.com/anomaly2104/alerts-and-pickers"
