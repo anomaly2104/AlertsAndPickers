@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "AlertsAndPickers"
-  s.version               = "1.0.1"
+  s.version               = "1.0.2"
   s.summary               = "A simple library for converting a value from one unit to another."
   s.homepage              = "https://github.com/anomaly2104/AlertsAndPickers"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
