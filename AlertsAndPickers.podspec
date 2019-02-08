@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { "Udit Agarwal" => "hello@uditagarwal.com" }
   s.ios.deployment_target = '11.0'
+  s.swift_version         = '4.2'
   s.source                = { :git => "https://github.com/anomaly2104/AlertsAndPickers", :tag => s.version.to_s }
   s.source_files          = "Source/**/*.{swift}"
   s.resource              = "Source/Pickers/Locale/Countries.bundle"
