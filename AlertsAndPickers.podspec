@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name                  = "AlertsAndPickers"
   s.version               = "1.0.4"
-  s.summary               = "A simple library for converting a value from one unit to another."
+  s.summary               = "Advanced usage of UIAlertController with TextField, DatePicker, PickerView, TableView and CollectionView."
   s.homepage              = "https://github.com/anomaly2104/AlertsAndPickers"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { "Udit Agarwal" => "hello@uditagarwal.com" }
-  s.ios.deployment_target = '11.0'
+  s.platform              = :ios, '11.0'
   s.swift_version         = '4.2'
   s.source                = { :git => "https://github.com/anomaly2104/AlertsAndPickers", :tag => s.version.to_s }
   s.source_files          = "Source/**/*.{swift}"
