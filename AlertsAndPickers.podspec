@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author                = { "Udit Agarwal" => "hello@uditagarwal.com" }
   s.ios.deployment_target = '11.0'
   s.source                = { :git => "https://github.com/anomaly2104/AlertsAndPickers", :tag => s.version.to_s }
-  s.source_files          = 'Source/**/*.{h,m}'
+  s.source_files          = "Source/**/*.{swift}"
   s.requires_arc          = true
 end
